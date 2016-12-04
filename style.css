@@ -1,0 +1,53 @@
+.container {
+	background-color: light-blue;
+	width: 654px;
+	height: 800px;
+	border: 7px solid black;	
+	background-image: url("../images/starwars.png");
+}
+
+.h3_width {
+	font-family: 'Geostar Fill', cursive;
+	color: white;
+	}
+
+#game, h5 {
+	font-family: 'Quantico', sans-serif;
+}
+
+#message{
+	font-family: 'Quantico', sans-serif;
+	color: black;
+	background-color: white;
+	border-radius: 5px;
+    padding: 20px;
+    margin-left: 135px;
+    margin-right: 20px;
+}
+
+.top-bar {
+	margin: -18px;
+	background-color: black;
+	padding: 15px;
+	margin-bottom: inherit;
+}
+
+.logo {
+	height: 55px;
+	width: 55px;
+}
+
+.bottom-bar {
+	margin: -22px;
+	background-color: black;
+	padding: 10px;
+	margin-bottom: inherit;
+	color: white;
+	position: fixed;
+	width: 654px;
+	bottom: 7px;
+	text-align: center;
+	font-size:15px;
+}
+
+

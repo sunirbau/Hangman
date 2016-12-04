@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Hangman</title>
+		<!-- BOOTSTRAP LINK -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+		<!-- CSS LINK -->
+		<link rel="stylesheet" href="./assets/css/style.css" type="text/css">
+		<!-- GOOGLE FONT LINK -->
+		<link href="https://fonts.googleapis.com/css?family=Geostar+Fill" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Quantico" rel="stylesheet">
+		<!-- SOUND SOURCE LINK-HOWLER -->
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/howler/1.1.29/howler.js"></script>
+
+	</head>
+
+	<body>
+		<!-- MAIN CONTAINER -->
+		<div class="container">
+			<div class="text-center">
+			<div class="top-bar">
+			<h2 class="h3_width"><img src="./assets/images/stromtrooper.jpg" class="logo"> Stormtrooper-Hangman</h2>
+			<h4 class="h3_width">Press any key to start <span class="glyphicon glyphicon-hand-left"></span></h4>
+			</div>
+
+			<div class="hide" id="start">
+				<br>
+			<!-- GAME STATS -->
+				<h5>(Ignore spaces in names)</h5>
+				
+				<div id = "game">
+					<h3><span id="letter"></span></h3>
+					<h4 id="guessesLeft">Guesses left: </h4>
+					<h4 id="wrongGuess">Wrong Guess: </h4>
+					<h4 id="win">Wins: </h4>
+				</div>
+				<br>
+				<br>
+				<br>
+					<h4 id="message"></h4>
+			</div>
+			</div>
+		<!-- FOOTER  -->
+		<div class="bottom-bar">
+			<p class="footerText">&copy Smriti Shrestha 2016</p>
+		</div>
+			
+		</div>
+		<!-- LINK TO JAVASCRIPT  -->
+		<script type="text/javascript" src="./assets/javascript/game.js">
+		</script>
+	</body>
+</html>
