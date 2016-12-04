@@ -6,12 +6,12 @@ var wins = 0;
 var sounds = {
  letter_right: {
      sound: new Howl({
-         urls: ['./assets/sounds/right.mp3'],
+         urls: ['right.mp3'],
      })
  },
  letter_wrong: {
      sound: new Howl({
-         urls: ['./assets/sounds/wrong.mp3'],
+         urls: ['wrong.mp3'],
      })
  }
 };
